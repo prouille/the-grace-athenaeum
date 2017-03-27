@@ -2,7 +2,7 @@
 layout: post
 title:  "awesome"
 date:   2015-02-12 13:46:40
-categories: jekyll update
+categories: subreddit
 image: /imgs/Adjusting_the_gap.gif
 ---
 ![image](/imgs/aatdrbE.jpg)

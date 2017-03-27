@@ -6,6 +6,7 @@
 
 
 // Our variables
+/*
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
@@ -31,6 +32,7 @@ $thumbnails-size:  100%;
 
 $hover-opacity :    0.6;
 $hover-color:      #e770c2;
+*/
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
@@ -44,11 +46,9 @@ $hover-color:      #e770c2;
     }
 }
 
-
-
+$font-family: 'Playfair Display', serif;
+$font-family2: 'Raleway', sans-serif;
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+@import "front";
+
+//@import "syntax-highlighting","base","layout";
