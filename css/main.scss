@@ -7,7 +7,7 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
-$base-font-size:   16px;
+$base-font-size:   12px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
@@ -15,7 +15,7 @@ $spacing-unit:     30px;
 
 $text-color:       #111;
 $background-color: #fdfdfd;
-$brand-color:      #2a7ae2;
+$brand-color:      #e8e8e8;
 
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
@@ -27,8 +27,10 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+$thumbnails-size:  100%;
 
-
+$hover-opacity :    0.6;
+$hover-color:      #e770c2;
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {

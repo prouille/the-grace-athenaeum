@@ -1,22 +1,23 @@
 ---
 layout: default
 ---
-
+<script src="http://localhost:35729/livereload.js"></script>
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <span class="post-list">
+      {% for post in site.posts %}
+        <li class="post-element">
+          <a href="{{ post.url }}">
+            <span class="post-masking"></span>
+          </a>
+          <img class="img-thumb" src="{{post.image}}"  >
+          <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+          </span>
+        </li>
+      {% endfor %}
+  </span>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
 
